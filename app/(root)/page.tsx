@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Hello from "./components/hello";
+
+import Hello from "../components/hello";
 
 export default function Home() {
 console.log("Server component, I am!");
@@ -11,3 +11,5 @@ console.log("Server component, I am!");
     </>
   );
 }
+
+// moved homepage page.tsx into app/(root)

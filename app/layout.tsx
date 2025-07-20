@@ -27,8 +27,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div>
+          {children}
+        </div>
       </body>
     </html>
   );
 }
+
+// below is reffering to when ROOT ELEMENT was used here before being moved to (root). same rules apply.
+
+//* that { children } is the content of the page that will be rendered 
+
+//? A cool thing: we can add header/footer/other components that do not change across pages (only the children will change) ie that ROOT ELEMENT will be visible on all pages.
+//* this is very common practice in those C L E A N  U I  websites
+//todo: we can also add custom un-changing components to any nested page group (eg. if we want a different navbar and footer for the dashboard + user pages)
+// can be done by adding a new layout.tsx file in the dashboard folder
+// and it will be used for all pages inside the dashboard folder, including the user pages.
+
