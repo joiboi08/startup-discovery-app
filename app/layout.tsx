@@ -45,3 +45,4 @@ export default function RootLayout({
 // can be done by adding a new layout.tsx file in the dashboard folder
 // and it will be used for all pages inside the dashboard folder, including the user pages.
 
+
