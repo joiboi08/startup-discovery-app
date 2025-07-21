@@ -1,2 +1,1 @@
-# startup-discovery-app
-An app to discover startups and investors! 
+# starter learning full stack CRUD project for nextjs 
